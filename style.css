@@ -1,0 +1,210 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.logo {
+    font-family: Kanit,sans-serif;
+  letter-spacing: 1.25px; 
+  font-weight: 850;
+  font-size: 42px;
+  transition: all 1300ms ease;
+  padding: 0 50px;
+}
+.logo:hover {
+  color: #76FA74;
+}
+header {
+  width: calc(100% 0px);
+  height: 15vh;
+  background-color: #2D2F34;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 75px;
+  padding-right: 50px;
+  letter-spacing: none;
+  font-size: 22px;
+  font-family: Kanit,sans-serif;
+  font-weight: 600;
+}
+.store:hover {
+  
+}
+main {
+  width: 100%;
+  height: 90vh;
+  background-image: url("Background.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+.black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 0;
+}
+main img {
+  margin: 75px;
+  animation: 5s linear infinite enlarge;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.62);
+  z-index: 1;
+  transition: all 1000ms ease;
+}
+@keyframes enlarge {
+  0%{transform: scale(1);}
+  25%{transform: scale(1.075);}
+  50%{transform: scale(1);}
+  75%{transform: scale(1.05);}
+  100%{transform: scale(1);}
+}
+main img:hover {
+  filter: brightness(0.85);
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.welcome {
+  background-color: #2D2F34;
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+}
+.welcome img {
+  width: 40%;
+  align-self: flex-start;
+  padding-top: 20vh;
+}
+.welcome h1 {
+  font-family: Kanit,sans-serif;
+  letter-spacing: 1.25px; 
+  font-weight: 850;
+  font-size: 48px;
+   transition: all 2500ms ease;
+}
+.welcome p {
+  font-family: Arial;
+  font-size: 23px;
+  text-align: left;
+}
+.introduction {
+  width: 40%;
+  padding-top: 37vh;
+}
+body {
+position: relative;
+}
+
+.follow-cursor {
+display:none;
+width: 50px;
+height: 50px;
+border: 1px solid #0d6efd;
+border-radius: 50%;
+transform: translateY(-50%) translateX(-50%);
+position: absolute;
+z-index: 999;
+pointer-events: none;
+transition: width 0.64s, height 0.64s, border-radius 0.64s, background 0.64s;
+}
+
+.follow-cursor_active {
+height: 128px;
+width: 128px;
+border-width: 2px;
+background: rgba(13, 110, 253, 0.32);
+}
+.welcome h1:hover {
+  color: #36ff00;
+}
+.gamemodes {
+  background-color: #212326;
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5vw;
+}
+.heading h1 {
+  font-family: Kanit,sans-serif;
+  letter-spacing: 1.25px; 
+  font-weight: 850;
+  font-size: 57px;
+  padding-top: 12vh;
+  align-self: start;
+  margin-top: -45vh;
+  padding-left: 5vw;
+}
+.table img {
+  width: 32px;
+  height: 32px;
+}
+.table {
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 32vh 32vh;
+  gap: 15px;
+  margin-top: 22vh;
+}
+.z1 {
+  background-color: #2D2F34;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+.z2 {
+  background-color: #2D2F34;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+.z3 {
+  background-color: #2D2F34;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+.z4 {
+  background-color: #2D2F34;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+.z5 {
+  background-color: #2D2F34;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+.z6 {
+  background-color: #2D2F34;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+.table h4 {
+  color: #fff;
+  font-family: Kanit,sans-serif;
+}
+.c1,.c2,.c3,.c4,.c5,.c6 {
+  font-family: Arial;
+  font-size: 15px;
+  text-align: left;
+}
